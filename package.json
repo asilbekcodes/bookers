@@ -1,0 +1,28 @@
+{
+  "name": "bookers",
+  "version": "1.0.0",
+  "description": "Bookers App",
+  "main": "index.html",
+  "scripts": {
+    "start": "pug -w ./ -o ./Compiled-HTML -P"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasurhaydarovcode/bookers.git"
+  },
+  "keywords": [
+    "pug",
+    "scss",
+    "html",
+    "css"
+  ],
+  "author": "ALGORITHM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasurhaydarovcode/bookers/issues"
+  },
+  "homepage": "https://github.com/jasurhaydarovcode/bookers#readme",
+  "dependencies": {
+    "pug": "^3.0.3"
+  }
+}
