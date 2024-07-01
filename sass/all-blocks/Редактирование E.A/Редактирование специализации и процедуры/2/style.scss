@@ -1,13 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+@import "../1/style.scss";
+
+
 .containerEa{
-    width: 375px;
-    height: 672px;
-    background-color: #21212E;
+    .title2{
+        display: flex;
+        align-items: center;
+        color: white;
+        h2:nth-child(2){
+            margin: 0 auto;
+            font-size: 18px;
+        }
+    }
 }
