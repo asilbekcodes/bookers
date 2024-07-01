@@ -1,13 +1,46 @@
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+@import "../2/style.scss";
+
 .containerEa{
-    width: 375px;
-    height: 672px;
+    filter: brightness(.35);
+}
+
+
+article {
+    display: grid;
     background-color: #21212E;
+    width: 335px;
+    padding-bottom: 16px;
+    border-radius: 20px;
+    position: absolute;
+    justify-content: center;
+    gap: 10px;
+
+    h2 {
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        font-weight: 400;
+    }
+
+    input {
+        padding: 10px 0 70px 15px;
+        border-radius: 8px;
+        background-color: #4B4B64;
+        border: none;
+    }
+
+    button {
+        border: none;
+        height: 42px;
+        border-radius: 8px;
+        width: 303px;
+        font-weight: 700;
+    }
+    .btn1{
+        color: #9C0A35;
+    }
+    .btn2{
+        background-color: #9C0A35;
+        color: white;
+    }
 }
