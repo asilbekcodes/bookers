@@ -101,4 +101,21 @@
             }
         }
     }
+
+    footer {
+        display: flex;
+        justify-content: center;
+
+        button {
+            height: 42px;
+            width: 350px;
+            background-color: #828282;
+            color: white;
+            font-weight: 700;
+            font-size: 14px;
+            border: none;
+            border-radius: 10px;
+            margin-left: -18px;
+        }
+    }
 }
