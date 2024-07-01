@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,4 +62,28 @@ body {
 .containerEa .title2 h2:nth-child(2) {
   margin: 0 auto;
   font-size: 18px;
+}
+.containerEa .foott {
+  position: relative;
+  display: grid;
+  gap: 8px;
+  margin-top: 70%;
+}
+.containerEa .foott button {
+  width: 95%;
+  height: 44px;
+  border-radius: 7px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.containerEa .foott button:nth-child(1) {
+  color: #9C0A35;
+}
+.containerEa .foott button:nth-child(2) {
+  color: white;
+  background-color: #828282;
+}
+.containerEa .foott .bthth {
+  background-color: #9C0A35 !important;
 }/*# sourceMappingURL=style.css.map */
