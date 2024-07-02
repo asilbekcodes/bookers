@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0 0px 0 25px;
+    background-color: #21212E;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.top {
+    padding: 20px 10px;
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    .user-info {
+        .user-name {
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 17px;
+        }
+        .user-number {
+            color: #828282;
+            font-size: 12px;
+        }
+    }
+    .settings {
+        .tag {
+            width: 335px;
+            height: 44px;
+            background-color: #B9B9C9;
+            border-radius: 14px;
+        }
+    }
+}

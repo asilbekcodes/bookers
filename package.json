@@ -6,7 +6,8 @@
   "scripts": {
     "start": "pug -w ./ -o ./Compiled-HTML -P",
     "scss": "sass --watch scss:css",
-    "jasur": "npx sass --watch ./components/JASUR/kartochka-zapisey/profile.scss ./components/JASUR/kartochka-zapisey/profile.css"
+    "jasur-pug": "pug -w ./ -o ./components/JASUR/Compiled-HTML -P",
+    "jasur-scss": "npx sass --watch ./components/JASUR/kartochka-zapisey/profile.scss ./components/JASUR/kartochka-zapisey/profile.css"
   },
   "repository": {
     "type": "git",
