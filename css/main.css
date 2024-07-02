@@ -63,4 +63,13 @@ body {
   align-items: center;
 }
 
+.nastroyka {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+}
+.nastroyka .nastroyka-text {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
