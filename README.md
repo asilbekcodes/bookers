@@ -55,3 +55,7 @@ Loyihani lokal muhitda ishga tushirish uchun quyidagi amallarni bajaring:
 | 15   | S. Timur      | Kartochka Klient --> Rasxod  |
 | 16   | Y. Dilshod 2  | Finans --> Kartochka Zapisi  |
 | 17   | JASUR      | Kartochka Zapisi --> Oxirigacha  |
+
+| Owner      | Server Page       |
+| ---------  | ---------- |
+| JASUR      | https://booker-two.netlify.app/booker-jasur/html/kartochka-zapisi/profile.html  |

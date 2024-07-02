@@ -4,7 +4,10 @@
   "description": "Bookers App",
   "main": "index.html",
   "scripts": {
-    "start": "pug -w ./ -o ./Compiled-HTML -P"
+    "start": "pug -w ./ -o ./Compiled-HTML -P",
+    "scss": "sass --watch scss:css",
+    "jasur-pug": "pug -w ./ -o ./components/JASUR/Compiled-HTML -P",
+    "jasur-scss": "npx sass --watch ./components/JASUR/kartochka-zapisi/stranits-client.scss ./components/JASUR/kartochka-zapisi/stranits-client.css"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,7 @@
   },
   "homepage": "https://github.com/jasurhaydarovcode/bookers#readme",
   "dependencies": {
-    "pug": "^3.0.3"
+    "pug": "^3.0.3",
+    "sass": "^1.77.6"
   }
 }
