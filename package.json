@@ -7,7 +7,7 @@
     "start": "pug -w ./ -o ./Compiled-HTML -P",
     "scss": "sass --watch scss:css",
     "jasur-pug": "pug -w ./ -o ./components/JASUR/Compiled-HTML -P",
-    "jasur-scss": "npx sass --watch ./components/JASUR/kartochka-zapisey/profile.scss ./components/JASUR/kartochka-zapisey/profile.css"
+    "jasur-scss": "npx sass --watch ./components/JASUR/kartochka-zapisi/stranits-client.scss ./components/JASUR/kartochka-zapisi/stranits-client.css"
   },
   "repository": {
     "type": "git",
