@@ -54,6 +54,24 @@ body {
   display: flex;
   align-items: center;
 }
+.settings .tags {
+  width: 100%;
+  height: max-content;
+  background-color: #B9B9C9;
+  border-radius: 14px;
+  color: #000;
+  margin: 0 -20px;
+  padding: 5px 20px;
+}
+.settings .tags .input {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.settings .tags .input input {
+  width: 20px;
+  height: 20px;
+}
 
 .footer {
   padding-top: 10px;

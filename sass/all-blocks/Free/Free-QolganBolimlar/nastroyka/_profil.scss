@@ -55,10 +55,30 @@ body {
                 width: 40px;
             }
         }
+        
 
         .arrow {
             display: flex;
             align-items: center;
+        }
+    }
+    .tags{
+        width: 100%;
+        height: max-content;
+        background-color: #B9B9C9;
+        border-radius: 14px;
+        color: #000;
+        margin: 0 -20px;
+        padding: 5px 20px;
+        .input{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            input{
+                // font-size: 25px;
+                width: 20px;
+                height: 20px;
+            }
         }
     }
 }
