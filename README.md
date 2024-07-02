@@ -58,4 +58,4 @@ Loyihani lokal muhitda ishga tushirish uchun quyidagi amallarni bajaring:
 
 | Owner      | Server Page       |
 | ---------  | ---------- |
-| JASUR      | https://bookers-two.vercel.app/components/JASUR/  |
+| JASUR      | https://booker-two.netlify.app/booker-jasur/html/kartochka-zapisi/profile.html  |
