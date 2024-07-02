@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerEa {
+  width: 375px;
+  height: 672px;
+  background-color: #21212E;
+} 
+
+/*# sourceMappingURL=style.css.map */
