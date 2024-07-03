@@ -1,0 +1,22 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    background: #B9B9C9;
+    color: #000;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: none;
+    p{
+        margin: 0;
+        color: #4F4F4F;
+        font-size: 12px;
+    }
+}
+
+.footer-img{
+    display: flex;
+    align-items: end;
+    height: 50vh;
+}
