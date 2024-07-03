@@ -85,10 +85,24 @@ body {
 .nastroyka {
   display: flex;
   align-items: center;
-  gap: 92px;
+  gap: 90px;
 }
 .nastroyka .nastroyka-text {
   font-size: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 20px;
+  background: #9C0A35;
+  color: #fff;
+  margin: 20px 0;
+  position: relative;
+  right: 18px;
+  border-radius: 8px;
+  border: none;
 }
 
 /*# sourceMappingURL=main.css.map */
