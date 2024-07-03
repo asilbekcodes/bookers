@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-color: #21212E;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+.top p {
+  font-size: 18px;
+}
+
+.container {
+  margin-left: -12px;
+  margin-top: 20px;
+  display: grid;
+  row-gap: 20px;
+}
+.container .card-hero {
+  width: 335px;
+  height: 232px;
+  border-radius: 16px;
+  background-color: #B9B9C9;
+  padding: 16px;
+}
+.container .card-hero .new-info {
+  width: 98px;
+  height: 29px;
+  border-radius: 4px;
+  gap: 2px;
+  border: 1px solid #217355;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .card-hero .new-info span {
+  color: #217355;
+  font-size: 12px;
+}
+.container .card-hero .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .card-hero .user-info img {
+  width: 60px;
+}
+.container .card-hero .user-info .info-m {
+  display: block;
+  align-items: center;
+}
+.container .card-hero .user-info .info-m p {
+  padding: 6px;
+  margin: 0;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}
+.container .card-hero .user-info .info-m button {
+  width: 98px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #217355;
+  border: 1px solid #217355;
+  color: #fff;
+  font-size: 9px;
+}
+.container .card-hero .mila-btn {
+  width: 201px;
+  height: 23px;
+  border-radius: 4px;
+  padding: 5px, 7px, 5px, 7px;
+  gap: 10px;
+  border: 1px solid #828282;
+  margin: 10px 0 0 0;
+  background-color: #B9B9C9;
+  font-size: 11px;
+  color: #4F4F4F;
+}
+.container .card-hero .today-p {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+}
+.container .card-hero .btns {
+  width: 124px;
+  height: 42px;
+  gap: 10px;
+  display: flex;
+}
+.container .card-hero .btns .btnAll {
+  border-radius: 10px;
+  border: 1px solid #9C0A35;
+}
+.container .card-hero .btns .btns-1 {
+  background-color: #9C0A35;
+  color: #fff;
+}
+.container .card-hero .btns .btns-2 {
+  border-radius: 10px;
+  color: #9C0A35;
+}
+
+/*# sourceMappingURL=kartochka-clienta.css.map */

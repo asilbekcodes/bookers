@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #21212E;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 25px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    p {
+        font-size: 18px;
+    }
+}
+
+.container {
+    margin-left: -12px;
+    margin-top: 20px;
+    display: grid;
+    row-gap: 20px;
+    .card-hero {
+        width: 335px;
+        height: 232px;
+        border-radius: 16px;
+        background-color: #B9B9C9;
+        padding: 16px;
+        .new-info {
+            width: 98px;
+            height: 29px;
+            border-radius: 4px;
+            gap: 2px;
+            border: 1px solid #217355;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                color: #217355;
+                font-size: 12px;
+            }
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img {
+                width: 60px;
+            }
+            .info-m {
+                display: block;
+                // justify-content: center;
+                align-items: center;
+                p {
+                    padding: 6px;
+                    margin: 0;
+                    color: #000000;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+                button {
+                    width: 98px;
+                    height: 24px;
+                    border-radius: 4px;
+                    background-color: #217355;
+                    border: 1px solid #217355;
+                    color: #fff;
+                    font-size: 9px;
+                }
+            }
+        }
+        .mila-btn {
+            width: 201px;
+            height: 23px;
+            border-radius: 4px;
+            padding: 5px, 7px, 5px, 7px;
+            gap: 10px;
+            border: 1px solid #828282;
+            margin: 10px 0 0 0;
+            background-color: #B9B9C9;
+            font-size: 11px;
+            color: #4F4F4F;
+        }
+        .today-p {
+            color: #000000;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .btns {
+            width: 124px;
+            height: 42px;
+            gap: 10px;
+            display: flex;
+            .btnAll {
+                border-radius: 10px;
+                border: 1px solid #9C0A35;
+            }
+            .btns-1 {
+                background-color: #9C0A35;
+                color: #fff;
+            }
+            .btns-2 {
+                border-radius: 10px;
+                color: #9C0A35;
+            }
+        }
+    }
+}

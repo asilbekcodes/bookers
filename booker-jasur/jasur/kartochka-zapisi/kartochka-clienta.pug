@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Карточка клиента будущие записи
+        // Styles
+        link(rel="stylesheet", href="../../css/kartochka-zapisi/kartochka-clienta.css")
+        // Montserrat Font Family
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet")
+    body 
+        div.top
+            img(src="../../images/kartochka-klienta/Arrow.svg", alt="") 
+            p Предстоящие записи
+        div.container
+            div.card-hero
+                div.new-info
+                    span Новый Запрос
+                div.user-info
+                    img(src="../../images/kartochka-klienta/User image.svg", alt="User Logo")
+                    div.info-m 
+                        p Мелисара
+                        button Постоянный клиент
+                button.mila-btn Стрижка, укладка, милирование
+                p.today-p Сегодня: 8:00 - 09:30
+                div.btns
+                    button.btnAll.btns-1 Одобрить
+                    button.btnAll.btns-2 Отклонить
+            div.card-hero
+                div.user-info
+                    img(src="../../images/kartochka-klienta/User image-2.svg", alt="User Logo")
+                    div.info-m 
+                        p Наргиза Ахмедова
+                        p +998 93 123-45-67
+                        button Постоянный клиент
+                button.mila-btn Стрижка, укладка, милирование
+                p.today-p Пн, 05 февраля
+                div.btns
+                    button.btnAll.btns-1 Одобрить
+                    button.btnAll.btns-2 Отклонить
