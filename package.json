@@ -5,9 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "pug -w ./ -o ./Compiled-HTML -P",
-    "scss": "sass --watch scss:css",
-    "jasur-pug": "pug -w ./ -o ./components/JASUR/Compiled-HTML -P",
-    "jasur-scss": "npx sass --watch ./components/JASUR/kartochka-zapisi/stranits-client.scss ./components/JASUR/kartochka-zapisi/stranits-client.css"
+    "scss": "sass --watch scss:css"
   },
   "repository": {
     "type": "git",
