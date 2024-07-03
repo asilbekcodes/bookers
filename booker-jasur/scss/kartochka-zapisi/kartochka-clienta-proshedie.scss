@@ -1,0 +1,71 @@
+body {
+    background-color: #1E1E30;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 360px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h1 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+}
+
+.card {
+    background-color: #B9B9C9;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    img {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+
+    .details {
+        h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #000;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #4F4F4F;
+        }
+
+        .tags {
+            span {
+                background-color: #E0E0E0;
+                color: #4F4F4F;
+                border-radius: 5px;
+                padding: 5px 10px;
+                font-size: 12px;
+                margin-right: 5px;
+            }
+        }
+
+        .price {
+            color: #E74C3C;
+            font-size: 16px;
+            margin-top: 10px;
+            font-weight: 700;
+        }
+    }
+}
