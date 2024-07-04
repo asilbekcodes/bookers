@@ -124,3 +124,38 @@
         margin: 5px 0;
     }
 }
+
+.card{
+    filter: brightness(.50);
+}
+.article {
+    width: 335px;
+    height: max-content;
+    background-color: #21212E;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    img {
+        margin: 20px auto 0 auto;
+    }
+
+    button {
+        width: 90%;
+        height: 42px;
+        border-radius: 10px;
+        border: none;
+        font-size: 17px;
+        font-weight: 700;
+        background-color: #9C0A35;
+        color: #fff;
+        margin: 20px 0;
+    }
+}
+
