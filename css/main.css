@@ -248,9 +248,28 @@ body {
   margin: 5px 0;
   font-size: 18px;
 }
+.footer-item .footer-flex .footer-flex__btn-1 {
+  background: #9C0A35;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px 0;
+  font-size: 18px;
+}
 .footer-item .footer-item__btn {
   width: 100%;
   background: #828282;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.footer-item .footer-item__btn-1 {
+  width: 100%;
+  background: #9C0A35;
   color: #fff;
   padding: 8px 20px;
   border-radius: 10px;
