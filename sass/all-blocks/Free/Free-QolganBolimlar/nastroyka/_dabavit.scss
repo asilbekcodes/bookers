@@ -1,0 +1,68 @@
+.bdy {
+    margin: 0;
+    padding: 5px 0 0 0;
+    background-color: #21212E;
+    font-family: "Montserrat", sans-serif;
+    // color: $white-clr;
+    color: #fff; 
+    .kod{
+        text-align: center;
+        margin: 100px 0 40px 0;
+        padding: 0 30px;
+    }
+    main{
+        padding: 0 30px;
+        .imgs{
+            display: flex;
+            justify-content: space-between;
+        }
+        .prodaljit-btn{
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            align-items: end;
+            margin-bottom: 30px;
+            button{
+                width: 100%;
+                padding: 15px 20px;
+                border-radius: 8px;
+                border: 1px solid #828282;
+                background: #828282;
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+    }
+    
+    .footer-btns {
+        background: #3E3E3E;
+        width: 100%;
+        height: max-content;
+        .btns-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            gap: 15px;
+            padding: 40px 30px 10px 30px;
+            button{
+                padding: 12px 8px;
+                border-radius: 12px;
+                font-size: 22px;
+                background: #BCBCBC;
+            }
+            .btn-flex{
+                display: flex;
+                justify-content: space-between;
+                gap: 5px;
+                button{
+                    width: 100%;
+                }
+                .img-btn{
+                    background: inherit;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
