@@ -1,9 +1,10 @@
 .content-btn{
     background: inherit;
-    color:$gray-2-clr;
+    // color:$gray-2-clr;
+    color: #828282;
     padding: 8px 20px;
     border-radius: 8px;
-    border: 1px solid $gray-2-clr;
+    border: 1px solid #828282;
 }
 .main-btn {
     display: flex;
@@ -12,9 +13,12 @@
     .content-btn-1{
         padding: 8px 20px;
         border-radius: 8px;
-        border: 1px solid $gray-2-clr;
-        background: $gray-clr;
-        color: $black-clr;
+        // border: 1px solid $gray-2-clr;
+        border: 1px solid #828282;
+        // background: $gray-clr;
+        background: #B9B9C9;
+        // color: $black-clr;
+        color: #000;
     }
 }
 
@@ -29,8 +33,10 @@
         justify-content: space-between;
         // gap: 10px;
         .footer-flex__btn{
-            background: $white-clr;
-            color: $gray-3-clr;
+            // background: $white-clr;
+            background: #fff;
+            // color: $gray-3-clr;
+            color: #4f4f4f;
             padding: 8px 16px;
             border-radius: 10px;
             border: none;
@@ -38,8 +44,10 @@
             font-size: 18px;
         }
         .footer-flex__btn-1{
-            background: $red-clr;
-            color: $white-clr;
+            // background: $red-clr;
+            background: #9C0A35;
+            // color: $white-clr;
+            color: #fff;
             padding: 8px 16px;
             border-radius: 10px;
             border: none;
@@ -50,8 +58,10 @@
     }
     .footer-item__btn{
         width: 100%;
-        background: $gray-2-clr;
-        color: $white-clr;
+        // background: $gray-2-clr;
+        background: #828282;
+        // color: $white-clr;
+        color: #fff;
         padding: 8px 20px;
         border-radius: 10px;
         border: none;
@@ -60,8 +70,10 @@
     }
     .footer-item__btn-1{
         width: 100%;
-        background: $red-clr;
-        color: $white-clr;
+        // background: $red-clr;
+        background: #9C0A35;
+        // color: $white-clr;
+        color: #fff;
         padding: 8px 20px;
         border-radius: 10px;
         border: none;
@@ -75,8 +87,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: $gray-clr;
-    color: $black-clr;
+    // background: $gray-clr;
+    background: #B9B9C9;
+    // color: $black-clr;
+    color: #000;
     padding: 15px 20px;
     border-radius: 10px;
     .main-element__item {
@@ -84,14 +98,16 @@
             font-size: 17px;
         }
         p{
-            color: $gray-3-clr;
+            // color: $gray-3-clr;
+            color: #4f4f4f;
             margin: 5px 0;
             font-size: 14px;
         }
     }
     .main-element__item-1 {
         b{
-            color: $red-clr;
+            // color: $red-clr;
+            color: #9C0A35;
             font-size: 17px;
         }
     }
@@ -100,20 +116,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: $gray-clr;
-    color: $black-clr;
+    // background: $gray-clr;
+    background: #B9B9C9;
+    // color: $black-clr;
+    color: #000;
     padding: 15px 20px;
     border-radius: 10px;
     margin: 20px 0;
     .main-bolt{
-        color: $red-clr;
+        // color: $red-clr;
+        color: #9C0A35;
     }
     .main-sum__btn{
         background: inherit;
-        color: $red-clr;
+        // color: $red-clr;
+        color: #9C0A35;
         padding: 8px 20px;
         border-radius: 10px;
-        border: 1px solid $red-clr;
+        // border: 1px solid $red-clr;
+        border: 1px solid #9C0A35;
         margin: 5px 0;
     }
     .main-sum__btn-1{
@@ -134,7 +155,8 @@
     height: max-content;
     background-color: #21212E;
     border-radius: 20px;
-    color: $white-clr;
+    // color: $white-clr;
+    color: #fff;
     text-align: center;
     position: absolute;
     top: 230px;
@@ -154,8 +176,10 @@
         border: none;
         font-size: 17px;
         font-weight: 700;
-        background-color: $red-clr;
-        color: $white-clr;
+        // background-color: $red-clr;
+        background: #9C0A35;
+        // color: $white-clr;
+        color: #fff;
         margin: 20px 0;
     }
 }

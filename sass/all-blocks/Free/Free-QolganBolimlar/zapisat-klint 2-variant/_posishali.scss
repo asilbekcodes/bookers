@@ -3,14 +3,17 @@
     align-items: center;
     gap: 10px;
     padding: 15px 20px;
-    background: $gray-clr;
-    color: $black-clr;
+    // background: $gray-clr;
+    background: #b9b9b9;
+    // color: $black-clr;
+    color: #000;
     margin: 20px 0;
     border-radius: 10px;
     border: none;
     p{
         margin: 0;
-        color: $gray-3-clr;
+        // color: $gray-3-clr;
+        color: #4f4f4f;
         font-size: 12px;
     }
 }
