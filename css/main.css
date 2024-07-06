@@ -445,8 +445,49 @@ body {
   margin: 20px 0;
 }
 
-.nav-heading {
+.nav-f {
   display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+.nav-f .butto-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 15px;
+  background: #9C0A35;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+.nav-f .butto-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 15px;
+  background: inherit;
+  color: #828282;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #828282;
+}
+
+.vremya-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 10px 0;
+}
+.vremya-flex p {
+  margin: 0;
+}
+
+.images-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
