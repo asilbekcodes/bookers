@@ -346,7 +346,7 @@ body {
   padding: 8px 20px;
   border-radius: 10px;
   border: none;
-  margin: 10px 0;
+  margin: 20px 0;
   font-size: 18px;
 }
 .footer-item .footer-item__btn-1 {
@@ -356,7 +356,17 @@ body {
   padding: 8px 20px;
   border-radius: 10px;
   border: none;
-  margin: 10px 0;
+  margin: 20px 0;
+  font-size: 18px;
+}
+.footer-item .footer-item__btn-2 {
+  width: 100%;
+  background: #fff;
+  color: #9C0A35;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px 0;
   font-size: 18px;
 }
 
