@@ -1,0 +1,142 @@
+body {
+    background-color: #1A1A2E;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #282C34;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    .profile {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .info {
+            margin-left: 10px;
+
+            h2 {
+                margin: 0;
+                font-size: 18px;
+            }
+
+            p {
+                margin: 0;
+                font-size: 14px;
+                color: #ccc;
+            }
+
+            .status {
+                display: inline-block;
+                padding: 2px 8px;
+                background-color: #4CAF50;
+                border-radius: 5px;
+                font-size: 12px;
+                color: #fff;
+                margin-top: 4px;
+            }
+        }
+    }
+}
+
+.services {
+    margin-top: 20px;
+
+    .service-button {
+        background-color: #444;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #fff;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+}
+
+.appointment {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+
+    .date-time,
+    .cost,
+    .notification {
+        margin-bottom: 15px;
+    }
+
+    .time,
+    .price,
+    .notify-time {
+        font-size: 18px;
+        color: #FF4C61;
+    }
+
+    .status-buttons {
+        display: flex;
+        justify-content: space-between;
+
+        .decline,
+        .accept {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .decline {
+            border: 1px solid #9C0A35;
+            color: #9C0A35;
+            background: #B9B9C9;
+        }
+
+        .accept {
+            background-color: #9C0A35;
+            color: #fff;
+        }
+    }
+}
+
+.contact-info {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+
+    h3 {
+        margin-top: 0;
+    }
+
+    .contact-details {
+        p {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            font-size: 14px;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
