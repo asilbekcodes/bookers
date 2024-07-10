@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2C2B39;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .appointment {
+  background-color: #4A4A59;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.container .appointment .profile {
+  display: flex;
+  align-items: center;
+}
+.container .appointment .profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+.container .appointment .profile .details {
+  flex-grow: 1;
+}
+.container .appointment .profile .details h3 {
+  margin: 0 0 5px;
+}
+.container .appointment .profile .details p {
+  margin: 0 0 10px;
+}
+.container .appointment .profile .details .services {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.container .appointment .profile .details .services .service {
+  background-color: #6F6F7E;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+.container .appointment .profile .details .price {
+  color: #F68B8B;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.container .appointment .profile .details .date-time p {
+  margin: 0 0 10px;
+}
+.container .appointment .profile .details .date-time .time-buttons {
+  display: flex;
+  gap: 10px;
+}
+.container .appointment .profile .details .date-time .time-buttons button {
+  background-color: #6F6F7E;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.container .appointment .profile .details .actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.container .appointment .profile .details .actions .message {
+  background-color: #E83350;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  flex-grow: 1;
+}
+.container .appointment .profile .details .actions .call {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=kartochka-bu-za.css.map */
