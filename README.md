@@ -1,4 +1,4 @@
-<div align="center">
+z<div align="center">
 
 # Bookers
 
@@ -11,10 +11,13 @@
 
 ## Texnologiyalar
 
-  - Pug (Template Engine)
-  - SCSS (CSS Preprocessor)
-  - HTML5
-  - CSS3
+| Texnologiyalar | ICONS |
+| -------------- | -------- |
+| Pug (Template Engine) | ![Pug](https://img.shields.io/badge/-Pug-FFF?logo=pug&logoColor=A86454) |
+| SCSS (CSS Preprocessor) | ![SCSS](https://img.shields.io/badge/-SCSS-FFF?logo=sass&logoColor=CC6699) |
+| HTML5 | ![HTML5](https://img.shields.io/badge/-HTML5-FFF?logo=html5&logoColor=E34F26) |
+| CSS3 | ![CSS3](https://img.shields.io/badge/-CSS3-FFF?logo=css3&logoColor=1572B6) |
+| JavaScript | ![JavaScript](https://img.shields.io/badge/-JavaScript-FFF?logo=javascript&logoColor=F7DF1E) |
 
 ## O'rnatish va Ishga Tushirish
 
