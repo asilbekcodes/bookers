@@ -25,7 +25,7 @@ Loyihani lokal muhitda ishga tushirish uchun quyidagi amallarni bajaring:
    git clone https://github.com/jasurhaydarovcode/bookers.git
    ```
 
-## Devleopers ✅
+## Developers ✅
 
 ## Table
 
