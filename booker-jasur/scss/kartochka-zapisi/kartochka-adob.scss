@@ -25,7 +25,7 @@ header {
     }
 
     .user-info {
-        width: 335px;
+        width: 375px;
         height: 101px;
         background-color: #B9B9C9;
         border-radius: 16px;
@@ -66,7 +66,7 @@ header {
     }
 
     .imp {
-        width: 335px;
+        width: 375px;
         height: 55px;
         background-color: #B9B9C9;
         border-radius: 16px;
@@ -250,19 +250,25 @@ header {
     }
 }
 
+.contact-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    top: 24px;
+}
+
 .contact-page {
     margin-top: 24px;
+    display: flex;
+    justify-content: center;
 
-    p {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 18px;
-        color: #fff;
-        padding-bottom: 10px;
-    }
 
     .items {
-        width: 350px;
+        width: 380px;
         height: 124px;
         border-radius: 16px;
         background-color: #B9B9C9;
