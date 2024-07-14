@@ -125,11 +125,44 @@ header {
 }
 
 .time {
+    position: relative;
     width: 335px;
     height: 67px;
     background-color: #B9B9C9;
     border-radius: 16px;
     padding: 0 20px;
+
+    .modal {
+        position: absolute;
+        width: 355px;
+        height: 288px;
+        background-color: #21212E;
+        border-radius: 20px;
+        z-index: 1000;
+        left: 10px;
+
+        .check-img {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            p {
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 16px;
+                color: #fff;
+            }
+
+            button {
+                color: #fff;
+                width: 304px;
+                height: 42px;
+                border-radius: 10px;
+                background-color: #9C0A35;
+                border: none;
+            }
+        }
+    }
 
     .justify-between {
         .date {

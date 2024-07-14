@@ -5,18 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карточка одобренного</title>
     <!-- Style-->
-    <link rel="stylesheet" href="../../css/kartochka-zapisi/kartochka-odob-modul.css">
+    <link rel="stylesheet" href="../../css/kartochka-zapisi-deystva/kartochka-odob-modal.css">
     <!-- Montserrat Font Family-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
   </head>
   <body> 
-    <div class="modal">
-      <p>Отменить сеанс?</p>
-      <button class="button">Отмена</button>
-      <button class="button-2">Да</button>
-    </div>
     <nav> <img src="../../images/1/kartochka-adob/Tab-Bar.svg" alt="left arrow"></nav>
     <header> 
       <div class="flex">
@@ -37,6 +32,16 @@
       </div>
       <div class="flex">
         <div class="time">
+          <div class="modal">
+            <div class="check-img"> <img src="../../images/2/adob-modal/Done_ring_round.svg" alt="check image"></div>
+            <div class="check-img"> 
+              <p>Ваша запись передвинута</p>
+            </div>
+            <div class="check-img"> <img src="../../images/2/adob-modal/5-stars.svg" alt="star logos"></div>
+            <div class="check-img"> 
+              <button>Закрыт</button>
+            </div>
+          </div>
           <div class="justify-between">
             <div class="date"> 
               <div class="date-b"> <b>Четверг, 5 февраля</b></div>
@@ -73,17 +78,32 @@
           </div>
         </div>
       </div>
-      <div class="contact-page">   
-        <p>Контактная информация </p>
-        <div class="items">
-          <div><img src="../../images/1/kartochka-adob/contact/Phone.svg" alt="">
-            <p> +998 93 123-45-67</p>
-          </div>
-          <div><img src="../../images/1/kartochka-adob/contact/instagram@2x.svg" alt="">
-            <p> +998 93 123-45-67</p>
-          </div>
-          <div><img src="../../images/1/kartochka-adob/contact/Group 1000000891.svg" alt="">
-            <p> +998 93 123-45-67</p>
+      <div class="contact-page"> 
+        <div class="center-ut">  
+          <div>
+            <p>Контактная информация </p>
+            <div class="items">
+              <div><img src="../../images/1/kartochka-adob/contact/Phone.svg" alt="">
+                <p> +998 93 123-45-67</p>
+              </div>
+              <div><img src="../../images/1/kartochka-adob/contact/instagram@2x.svg" alt="">
+                <p> +998 93 123-45-67</p>
+              </div>
+              <div><img src="../../images/1/kartochka-adob/contact/Group 1000000891.svg" alt="">
+                <p> +998 93 123-45-67</p>
+              </div>
+            </div>
+            <div class="new-page"> 
+              <p>Дополнительно</p>
+              <div>
+                <div class="new-item"> <img src="../../images/1/kartochka-odobronnieo/Move_alt.svg" alt="logo">
+                  <p>Передвинуть</p>
+                </div>
+                <div class="new-item"> <img src="../../images/1/kartochka-odobronnieo/close_ring.svg" alt="logo">
+                  <p>Отменить</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

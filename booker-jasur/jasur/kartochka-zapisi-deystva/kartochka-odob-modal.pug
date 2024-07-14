@@ -5,16 +5,12 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Карточка одобренного
         // Style
-        link(rel="stylesheet", href="../../css/kartochka-zapisi/kartochka-odob-modul.css")
+        link(rel="stylesheet", href="../../css/kartochka-zapisi-deystva/kartochka-odob-modal.css")
         // Montserrat Font Family
         link(rel="preconnect" href="https://fonts.googleapis.com")
         link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
         link(href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet")
     body 
-        div.modal
-            p Отменить сеанс?
-            button.button Отмена
-            button.button-2 Да
         nav 
             img(src="../../images/1/kartochka-adob/Tab-Bar.svg", alt="left arrow")
         header 
@@ -33,6 +29,15 @@ html(lang="ru")
                     button.btn-in милирование
             div.flex
                 .time
+                    .modal
+                        div.check-img 
+                            img(src="../../images/2/adob-modal/Done_ring_round.svg", alt="check image")
+                        .check-img 
+                            p Ваша запись передвинута
+                        .check-img 
+                            img(src="../../images/2/adob-modal/5-stars.svg", alt="star logos")
+                        .check-img 
+                            button Закрыт
                     .justify-between
                         div.date 
                             div.date-b 
@@ -58,15 +63,26 @@ html(lang="ru")
                     div  
                         button.btn-1-1 Отклонить
                         button.btn-1-2 Принять
-            div.contact-page    
-                p Контактная информация 
-                div.items
+            div.contact-page 
+                div.center-ut   
                     div
-                        img(src="../../images/1/kartochka-adob/contact/Phone.svg", alt="")
-                        p  +998 93 123-45-67
-                    div
-                        img(src="../../images/1/kartochka-adob/contact/instagram@2x.svg", alt="")
-                        p  +998 93 123-45-67
-                    div
-                        img(src="../../images/1/kartochka-adob/contact/Group 1000000891.svg", alt="")
-                        p  +998 93 123-45-67
+                        p Контактная информация 
+                        div.items
+                            div
+                                img(src="../../images/1/kartochka-adob/contact/Phone.svg", alt="")
+                                p  +998 93 123-45-67
+                            div
+                                img(src="../../images/1/kartochka-adob/contact/instagram@2x.svg", alt="")
+                                p  +998 93 123-45-67
+                            div
+                                img(src="../../images/1/kartochka-adob/contact/Group 1000000891.svg", alt="")
+                                p  +998 93 123-45-67
+                        div.new-page 
+                            p Дополнительно
+                            div
+                                div.new-item 
+                                    img(src="../../images/1/kartochka-odobronnieo/Move_alt.svg", alt="logo")
+                                    p Передвинуть
+                                div.new-item 
+                                    img(src="../../images/1/kartochka-odobronnieo/close_ring.svg", alt="logo")
+                                    p Отменить

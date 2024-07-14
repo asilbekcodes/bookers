@@ -17,13 +17,53 @@ nav img {
   width: 40px;
 }
 
+.container {
+  height: max-content;
+}
+
+.modal {
+  width: 335px;
+  position: absolute;
+  margin-left: 8px;
+  top: 300px;
+  height: 143px;
+  background-color: #21212E;
+  border-radius: 20px;
+}
+.modal p {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+  left: 36%;
+  top: 10%;
+}
+.modal button {
+  width: 145px;
+  height: 42px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 15px;
+  border: none;
+}
+.modal .button {
+  background-color: #fff;
+  color: #9C0A35;
+}
+.modal .button-2 {
+  background-color: #9C0A35;
+  color: #FFFFFF;
+}
+
 header .flex {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 header .user-info {
-  width: 370px;
+  width: 335px;
   height: 101px;
   background-color: #B9B9C9;
   border-radius: 16px;
@@ -55,7 +95,7 @@ header .user-info .user-name-num button {
   color: #fff;
 }
 header .imp {
-  width: 370px;
+  width: 335px;
   height: 55px;
   background-color: #B9B9C9;
   border-radius: 16px;
@@ -214,7 +254,7 @@ header .time .justify-between .hours p {
   padding-bottom: 10px;
 }
 .contact-page .items {
-  width: 375px;
+  width: 350px;
   height: 124px;
   border-radius: 16px;
   background-color: #B9B9C9;
@@ -238,36 +278,4 @@ header .time .justify-between .hours p {
   font-weight: 500;
 }
 
-.new-page p {
-  padding: 20px 0;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 18px;
-  color: #fff;
-}
-.new-page div {
-  margin: 20px 0;
-}
-.new-page div .new-item {
-  width: 375px;
-  height: 44px;
-  background-color: #B9B9C9;
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 0 0 0 10px;
-}
-.new-page div .new-item p {
-  font-size: 14px;
-  color: #000;
-  font-weight: 700;
-  line-height: 12px;
-}
-
-.center-ut {
-  display: flex;
-  justify-content: center;
-}
-
-/*# sourceMappingURL=kartochka-odobrenno.css.map */
+/*# sourceMappingURL=kartochka-odob-modul.css.map */

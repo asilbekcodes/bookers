@@ -1,0 +1,83 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Appointment Scheduler
+    link(rel="stylesheet" href="../../css/kartochka-zapisi-deystva/kartochka-kalendar2.css")
+  body
+    .container
+      .profile
+        img(src="../../images/asosiy/User image (1).svg" alt="Profile Picture")
+        .info
+          h2 Гузаль Шерматова
+          p +998 93 171-63-80
+          span.status Постоянный клиент
+      .service
+        input(type="text" value="Стрижка, укладка" readonly)
+      .calendar
+        .header
+          span Февраль
+          span 2024
+        .days
+          div Пн
+          div Вт
+          div Ср
+          div Чт
+          div Пт
+          div Сб
+          div Вс
+          // Fill in the rest of the days as needed
+          div.day 29
+          div.day 30
+          div.day.current 31
+          div.day 1
+          div.day 2
+          div.day 3
+          div.day 4
+          div.day 5
+          div.day 6
+          div.day.current 7
+          div.day 8
+          div.day 9
+          div.day 10
+          div.day 11
+          div.day 12
+          div.day 13
+          div.day.current 14
+          div.day 15
+          div.day 16
+          div.day 18
+          div.day 19
+          div.day 20
+          div.day 21
+          div.day.current 22
+          div.day 23
+          div.day 24
+          div.day(style="background-color: #c42736; color:white;") 25
+          div.day 26
+          div.day 27
+          div.day 28
+          div.day.current 29
+          div.day 1
+          div.day 2
+          div.day 3
+
+
+          div.day
+            span 4
+      .time-slots
+        div.time 08:00
+        div.time 08:30
+        div.time 09:00
+        div.time 09:30
+        div.time 10:00
+        div.time 10:30
+        div.time 11:00
+        div.time 11:30
+        div.time 12:00
+        div.time 12:30
+        div.time 13:00
+        div.time 13:30
+      button.submit Записать
+    script(src="script.js")

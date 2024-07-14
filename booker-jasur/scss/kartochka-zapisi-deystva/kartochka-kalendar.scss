@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 390px;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .info {
+        margin-left: 10px;
+
+        h2 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .status {
+            background-color: #3fba6b;
+            border-radius: 5px;
+            padding: 2px 5px;
+            font-size: 12px;
+        }
+    }
+}
+
+.service {
+    margin: 20px 0;
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #8a839a;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+.calendar {
+    background-color: #f3f4f7;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+
+        .day {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .current {
+            background-color: #e0e0e0;
+        }
+
+        .appointment {
+            background-color: #c42736;
+            color: #fff;
+            border-radius: 5px;
+            padding: 2px 5px;
+            align-items: center;
+            justify-content: center;
+            left: 135px;
+            margin-top: -110px;
+            opacity: 0.6;
+            width: 120px;
+            font-size: 10px;
+            height: 20px;
+            // margin-top: 5px;
+            position: absolute;
+        }
+    }
+}
+
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+
+    .time {
+        background-color: #e0e0e0;
+        color: #000;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .selected {
+        background-color: #c42736;
+        color: #fff;
+    }
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #8a839a;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
