@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #21212E;
+  font-family: sans-serif;
+}
+
+i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.container {
+  padding: 30px 0;
+  max-width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.input-item {
+  margin-top: 24px;
+  background-color: #4B4B64;
+  width: 330px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+}
+.input-item input {
+  width: 300px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.input-item input::placeholder {
+  color: #fff;
+}
+
+.users {
+  margin-top: 25px;
+}
+.users .contact-card {
+  display: flex;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 13px;
+}
+.users .profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.users .contact-info h2 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #000;
+}
+.users .contact-info p {
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+.footer-btn {
+  width: 330px;
+  height: 42px;
+  padding: 12px 19px 12px 19px;
+  gap: 8px;
+  border-radius: 10px;
+  background: #9C0A35;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-btn p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=ne-poseshali.css.map */
