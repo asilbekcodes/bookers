@@ -9,6 +9,13 @@ z<div align="center">
 ### Loyihaning dizayni Figma orqali yaratilgan va quyidagi havola orqali ko'rishingiz mumkin: [Bookers Figma Dizayni](https://www.figma.com/design/h4qc56fFggOKSNipgKggfR/Bookers_first_ver_update-(Copy)?node-id=12-24383&t=BvmBpa8XT31XaDT6-0)
 
 
+## Collaborators
+<p align="center">
+  <a href="https://github.com{/jasurhaydarovcode/bookers/}graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=jasurhaydarovcode/bookers">
+  </a>
+</p>
+
 ## Texnologiyalar
 
 | Texnologiyalar | ICONS |
