@@ -11,7 +11,7 @@ z<div align="center">
 
 ## Collaborators
 <p align="center">
-  <a href="https://github.com{/jasurhaydarovcode/bookers/}graphs/contributors">
+  <a href="https://github.com/jasurhaydarovcode/bookers/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=jasurhaydarovcode/bookers">
   </a>
 </p>
