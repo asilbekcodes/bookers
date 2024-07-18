@@ -4,7 +4,7 @@
   "description": "Booker JASUR",
   "main": "index.js",
   "scripts": {
-    "pug": "pug -w ./jasur -o ./html -P",
+    "pug": "pug -w ./views -o ./html -P",
     "scss": "sass --watch scss:css"
   },
   "author": "Jasur Haydarov",
