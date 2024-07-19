@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Playwrite+AR:wght@100..400&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+    height: 2000px;
+}
+
+
+
+@keyframes headeranim {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+header {
+    animation-name: headeranim;
+    animation-duration: .56s;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+    color: white;
+
+    nav {
+        padding: 14px 0 0 40px;
+        font-size: 33px;
+        font-family: "Alegreya", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+
+        background: hsla(197, 100%, 63%, 1);
+        background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+main {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .imggroup {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: max-content;
+        gap: 60px;
+
+        img {
+            filter: brightness(.6);
+            width: 400px;
+        }
+
+        img:nth-child(3) {
+            margin-top: -100px;
+        }
+
+        img:nth-child(5) {
+            margin-top: -100px;
+        }
+
+        .anim1 {
+            animation-name: imganim1;
+            animation-duration: 1s;
+        }
+
+        .anim2 {
+            animation-name: imganim2;
+            animation-duration: 1.4s;
+        }
+
+
+
+
+        @keyframes imganim1 {
+            0% {
+                transform: translateX(-200px);
+                margin-top: -200px;
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes imganim2 {
+            0% {
+                transform: translateX(400px);
+                opacity: 0;
+                margin-top: -200px;
+            }
+
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+                margin: 0;
+            }
+        }
+
+        .anim1:hover {
+            transform: translateX(-90px);
+            margin-top: -20px;
+            transition: 1s;
+            scale: 1.1;
+            filter: brightness(1);
+
+        }
+        .anim2:hover {
+            transform: translateX(90px);
+            margin-top: -20px;
+            transition: 1s;
+            scale: 1.05;
+            filter: brightness(1);
+        }.thenem:hover{
+            transform: translateX(-90px);
+            margin-top: -150px;
+            transition: 1s;
+            scale: 1.05;
+            filter: brightness(1);
+        }
+        .them:hover{
+            transform: translateX(-90px);
+            margin-top: -120px;
+            transition: 1.1s;
+            scale: 1.1;
+            filter: brightness(1);
+        }
+    }
+
+}
+
+.pages{ 
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 30px;
+
+    img{
+        width: 200px;
+        animation-name: imgfade;
+        animation-duration: 1s;
+    }img:hover{
+        scale: 1.1;
+        transition: .2s ease-out;
+    }
+    .img18{
+        animation-name: anima2;
+        animation-duration: 1s;
+    }
+    @keyframes imgfade {
+        0%{
+            opacity: 0;
+            margin-left: 200px;
+        }
+        100%{
+            opacity: 1;
+            margin: 0;
+        }
+    }
+    
+
+}
+
+@media only screen and (max-width: 1360px) {
+    .pages{ 
+        grid-template-columns: auto  auto auto auto !important;
+        gap: 18px;
+    }    
+}
+@media only screen and (max-width: 900px) {
+    .pages{ 
+        grid-template-columns: auto  auto !important;
+        gap: 18px;
+    }    
+}
+@media only screen and (max-width: 430px) {
+    header{
+        nav{
+            font-size: 18px;
+        }
+    }
+    .pages{ 
+        grid-template-columns: auto !important;
+    }    
+}

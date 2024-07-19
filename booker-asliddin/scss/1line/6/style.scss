@@ -1,0 +1,53 @@
+@import "../5/style.scss";
+
+.card {
+    filter: brightness(0.5);
+}
+
+.modal {
+    position: absolute;
+    background-color: #21212E;
+    width: 335px;
+    height: 286px;
+    border-radius: 20px;
+    color: white;
+    justify-content: center;
+    display: grid;
+
+    h4 {
+        font-size: 15px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    input {
+        padding: 0 40px 40px 15px;
+        width: 303px;
+        outline: none;
+        color: white;
+        border: none;
+        border-radius: 16px;
+        background-color: #4B4B64;
+        font-size: 15px;
+
+
+        &::placeholder {
+            color: #fff;
+            transform: translateY(-10px);
+        }
+    }
+    button{
+        color: #9C0A35;
+        font-weight: bolder;
+        font-size: 14px;
+        height: 42px;
+        margin-top: 16px;
+        border: none;
+        border-radius: 10px;
+    }
+    .btnu2{
+        color: white;
+        background-color: #9C0A35 !important;
+        margin-top: -10px;
+    }
+}

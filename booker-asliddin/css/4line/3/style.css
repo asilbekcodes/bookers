@@ -1,0 +1,30 @@
+@import "../../../css/1line/2/style.css";
+.cards-item {
+  width: 336px;
+  height: 73px;
+  background-color: #B9B9C9;
+  padding: 15px;
+  border-radius: 16px;
+}
+.cards-item span {
+  display: flex !important;
+  gap: 10px;
+  align-items: center;
+}
+.cards-item span i {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 20px;
+  color: #4F4F4F;
+}
+.cards-item h3 {
+  font-size: 14px;
+  color: #000;
+}
+.cards-item p {
+  color: #4F4F4F;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

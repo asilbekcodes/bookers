@@ -1,0 +1,29 @@
+@import "../../../scss/1line/3/style.scss";
+.card{
+    margin-top: -70px;
+    padding-bottom: 50px;
+}
+.info-time{
+    display: grid;
+    gap: 18px;
+    padding-top: 18px;
+    .info{
+        display: grid;
+        gap: 10px;
+        background-color: #B9B9C9;
+        width: 335px;
+        height: 70px !important;
+        border-radius: 16px;
+        padding: 16px;
+        color: black;
+        margin-top: 20px;
+
+        h3{
+            font-size: 14px;
+        }
+       
+        p{
+            color: #4F4F4F;
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.card {
+  height: max-content !important;
+}
+.card header {
+  padding-top: 280px;
+}
+.card header nav {
+  display: flex;
+  gap: 65px;
+  font-size: 18px;
+}
+.card main .block {
+  margin-top: 30px;
+  background-color: #B9B9C9;
+  color: black;
+  width: 335px;
+  height: 87px;
+  border-radius: 16px;
+  padding: 15px;
+}
+.card main .block p {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.card main .block h3 {
+  font-size: 14px;
+  width: 200px;
+  font-weight: bolder;
+}
+.card main .infoinput {
+  display: flex;
+  gap: 10px;
+  width: 335px;
+  height: 44px;
+  background-color: #B9B9C9;
+  color: black;
+  border-radius: 14px;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.card main .infoinput h3 {
+  font-size: 14px;
+}
+.card main .infoinput .imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+}
+.card main .infoinput .imgs img:nth-child(2) {
+  position: absolute;
+}
+.card main .datainput {
+  display: grid;
+  padding-top: 20px;
+}
+.card main .datainput label {
+  color: #828282;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.card main .datainput input, .card main .datainput button {
+  width: 335px;
+  height: 46px;
+  background-color: #4B4B64;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  color: white;
+  font-size: 14px;
+}
+.card main .datainput input::placeholder, .card main .datainput button::placeholder {
+  color: white;
+  font-size: 14px;
+}
+.card main .datainput button {
+  padding-left: 20px;
+  text-align: left;
+  height: 80px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.card footer button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 335px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #828282;
+  border: none;
+  color: white;
+}
+
+footer button {
+  background-color: #9C0A35 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

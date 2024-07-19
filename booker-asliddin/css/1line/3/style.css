@@ -1,0 +1,124 @@
+.card {
+  height: max-content !important;
+  padding-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+  gap: 100px;
+  font-size: 18px;
+}
+
+main .title {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+main .genders {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+main .genders .man-team {
+  display: grid;
+  gap: 2px;
+  width: 160px;
+  height: 128px;
+  border-radius: 16px;
+  background-color: #B9B9C9;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+}
+main .genders .man-team p {
+  font-size: 13px;
+  color: #4F4F4F;
+  margin-top: -6px;
+}
+main .genders .man-team .man {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .genders .man-team .man img:nth-child(2) {
+  position: absolute;
+}
+main .genders .woman-team {
+  display: grid;
+  gap: 2px;
+  width: 160px;
+  height: 128px;
+  border-radius: 16px;
+  background-color: #B9B9C9;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+}
+main .genders .woman-team p {
+  font-size: 13px;
+  color: #4F4F4F;
+  margin-top: -6px;
+}
+main .genders .woman-team .man {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .genders .woman-team .man img:nth-child(2) {
+  position: absolute;
+}
+main .btn {
+  margin-top: 20px;
+  background-color: #B9B9C9;
+  border-radius: 6px;
+  padding: 6px 20px;
+}
+main .btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+main .btn-group button {
+  padding: 6px 20px;
+  background-color: transparent;
+  color: #828282;
+  border-radius: 6px;
+  border: 2px solid #828282;
+}
+main .info-time {
+  display: grid;
+  gap: 18px;
+  padding-top: 18px;
+}
+main .info-time .info {
+  display: grid;
+  gap: 10px;
+  background-color: #B9B9C9;
+  width: 335px;
+  height: 150px;
+  border-radius: 16px;
+  padding: 16px;
+  color: black;
+}
+main .info-time .info h3 {
+  font-size: 14px;
+}
+main .info-time .info button {
+  padding: 5px 7px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: #4F4F4F;
+  border: 1px solid #4F4F4F;
+  background-color: transparent;
+  width: max-content;
+}
+main .info-time .info h2 {
+  font-size: 14px;
+  color: #9C0A35;
+}
+main .info-time .info p {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

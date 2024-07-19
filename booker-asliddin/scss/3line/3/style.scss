@@ -1,0 +1,37 @@
+@import "../2/style.scss";
+.card{
+    filter: brightness(.60);
+}
+
+.modal{
+    padding-top: 20px;
+    background-color: #21212E;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 335px;
+    height: 286px;
+    border-radius: 20px;
+    position: absolute;
+
+    button{
+        display: grid;
+        margin: 20px auto;
+        width: 302px;
+        height: 42px;
+        align-items: center;
+        border-radius: 10px;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+
+        &:nth-child(2){
+            color: #9C0A35;
+        }
+        &:nth-child(3){
+            background-color: #9C0A35;
+            color: white;
+        }
+    }
+    
+}

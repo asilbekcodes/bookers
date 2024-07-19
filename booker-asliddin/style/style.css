@@ -1,0 +1,16 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #151912;
+}
+
+canvas#neuro {
+  /* position: fixed; */
+  z-index: -22 !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  opacity: 0.95;
+}

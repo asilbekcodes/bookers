@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: Montserrat, sans-serif;
+}
+::-webkit-scrollbar {
+    background-color: #B9B9C9;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #21212E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card {
+    header{
+        padding-top: 120px;
+
+    }
+    padding-left: 20px;
+    color: white;
+    width: 375px;
+    height: 792px;
+    background-color: #21212E;
+}

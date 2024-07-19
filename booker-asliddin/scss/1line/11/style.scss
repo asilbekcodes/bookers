@@ -1,0 +1,49 @@
+@import "../10/style.scss";
+.card{
+    filter: brightness(.40);
+}
+
+.modal{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #21212E;
+    color: white;
+    width: 335px;
+    height: 230px;
+    border: none;
+    border-radius: 20px;
+
+
+    p{
+        font-size: 11px;
+        text-align: center;
+        margin-top: -55px;
+    }
+    img{
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+    .btngroup{
+        margin: 0 auto;
+        display: flex;
+        gap: 15px;
+        button{
+            margin-top: -50px;
+            width: 145px;
+            border: none;
+            border-radius: 10px;
+            height: 42px;
+            font-size: 14px;
+            font-weight: bolder;
+            &:nth-child(1){
+                color: #9C0A35;
+            }
+            &:nth-child(2){
+                background-color: #9C0A35;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import "../2/style.scss";
+
+
+footer{
+    margin-top: 60px !important;
+    button{
+        background-color: #9C0A35 !important;
+        color: white !important;
+        border: none;
+    
+        &:nth-child(1){
+            color: #9C0A35 !important;
+            background-color: white !important;
+        }&:nth-child(2){
+            background-color: #828282 !important;
+        }
+    }
+}

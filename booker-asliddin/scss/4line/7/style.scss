@@ -1,0 +1,72 @@
+@import "../3/style.scss";
+@import "../../3line/1/style.scss";
+
+.card {
+    height: max-content;
+    padding-bottom: 20px;
+
+    main {
+
+        .title {
+            button {
+                margin-top: 10px;
+                width: 36px;
+                height: 36px;
+                background-color: transparent;
+                color: white;
+                border-radius: 4px;
+                border: 1px solid #828282
+            }
+
+            .ind {
+                color: #9C0A35;
+            }
+        }
+        .infotimess{
+            h4{
+                margin-top: 20px;
+            }
+            p{
+                font-size: 11px;
+                font-weight: 400;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+        }.gridteams{
+            display: grid;
+            width: max-content;
+            grid-template-columns: auto auto auto auto;
+            gap: 13px;
+
+            button{
+                width: 74px;
+                height: 31px;
+                background-color: #AAAAAA;
+                color: #4F4F4F;
+                border-radius: 6px;
+                border: none;
+                font-size: 16px;
+            }
+            button:nth-child(1){
+                background-color: #9C0A35;
+                color: white;
+            }
+            button:nth-child(27){
+                background-color: #9C0A35;
+                color: white;
+            }
+            .thbtn{
+                background-color: white;
+                color: #4F4F4F;
+            }
+        }
+    }
+    footer{
+        margin-top: -210px !important;
+        button{
+            background-color: #828282;
+            color: white !important;
+            border: none;
+        }
+    }
+}

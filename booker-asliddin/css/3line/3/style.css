@@ -1,0 +1,168 @@
+.card header nav {
+  display: flex;
+  gap: 75px;
+  font-size: 18px;
+}
+.card main {
+  display: grid;
+  gap: 10px;
+  padding-top: 35px;
+}
+.card main .minicards {
+  display: flex;
+  background-color: #B9B9C9;
+  color: black;
+  width: 335px;
+  height: 44px;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.card main .minicards span {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+footer {
+  padding-top: 270px;
+}
+footer .footer-btn-group {
+  display: grid;
+  gap: 10px;
+  padding-right: 20px;
+}
+footer .footer-btn-group button {
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+  color: #9C0A35;
+  width: 335px;
+  height: 44px;
+  border-radius: 14px;
+  padding: 0 10px;
+}
+footer .footer-btn-group button:nth-child(2) {
+  background-color: #828282;
+  color: white;
+}
+
+.card header nav {
+  display: flex;
+  gap: 75px;
+  font-size: 18px;
+}
+.card main {
+  display: grid;
+  gap: 10px;
+  padding-top: 35px;
+}
+.card main .minicards {
+  display: flex;
+  background-color: #B9B9C9;
+  color: black;
+  width: 335px;
+  height: 44px;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.card main .minicards span {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+footer {
+  padding-top: 270px;
+}
+footer .footer-btn-group {
+  display: grid;
+  gap: 10px;
+  padding-right: 20px;
+}
+footer .footer-btn-group button {
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+  color: #9C0A35;
+  width: 335px;
+  height: 44px;
+  border-radius: 14px;
+  padding: 0 10px;
+}
+footer .footer-btn-group button:nth-child(2) {
+  background-color: #828282;
+  color: white;
+}
+
+footer button:nth-child(2) {
+  background-color: #9C0A35 !important;
+}
+
+footer {
+  margin-top: 180px !important;
+}
+footer button {
+  background-color: #828282 !important;
+  color: white !important;
+  border: none;
+}
+
+footer {
+  margin-top: 10px !important;
+}
+footer button {
+  background-color: #828282 !important;
+  color: white !important;
+  border: none;
+}
+
+footer {
+  margin-top: 10px !important;
+}
+footer button {
+  background-color: #9C0A35 !important;
+  color: white !important;
+  border: none;
+}
+
+.card {
+  filter: brightness(0.6);
+}
+
+.modal {
+  padding-top: 20px;
+  background-color: #21212E;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  width: 335px;
+  height: 286px;
+  border-radius: 20px;
+  position: absolute;
+}
+.modal button {
+  display: grid;
+  margin: 20px auto;
+  width: 302px;
+  height: 42px;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+.modal button:nth-child(2) {
+  color: #9C0A35;
+}
+.modal button:nth-child(3) {
+  background-color: #9C0A35;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

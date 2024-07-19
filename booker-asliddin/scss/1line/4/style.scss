@@ -1,0 +1,26 @@
+@import "../2/style.scss";
+
+footer {
+    padding-top: 270px;
+    .footer-btn-group {
+        display: grid;
+        gap: 10px;
+        padding-right: 20px;
+
+        button {
+            background-color: white;
+            font-size: 15px;
+            font-weight: bold;
+            color: #9C0A35;
+            width: 335px;
+            height: 44px;
+            border-radius: 14px;
+            padding: 0 10px;
+        }
+
+        button:nth-child(2) {
+            background-color: #828282;
+            color: white;
+        }
+    }
+}

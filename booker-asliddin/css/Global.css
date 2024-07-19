@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Playwrite+AR:wght@100..400&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+body {
+  background-color: #111;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+body {
+  --sb-track-color: #b9b9c9;
+  --sb-thumb-color: #4b4b64;
+  --sb-size: 5px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 20px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+
+
+
+
+@keyframes headeranim {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+header {
+  animation-name: headeranim;
+  animation-duration: 0.56s;
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  position: fixed;
+  color: white;
+  z-index: 9;
+}
+header nav {
+  padding: 14px 0 0 40px;
+  font-size: 33px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: hsl(197, 100%, 63%);
+  background: linear-gradient(90deg, hsl(197, 100%, 63%) 0%, hsl(294, 100%, 55%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+main .imggroup {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: max-content;
+  gap: 60px;
+}
+main .imggroup img {
+  filter: brightness(0.6);
+  width: 400px;
+}
+main .imggroup img:nth-child(3) {
+  margin-top: -100px;
+}
+main .imggroup img:nth-child(5) {
+  margin-top: -100px;
+}
+main .imggroup .anim1 {
+  animation-name: imganim1;
+  animation-duration: 1s;
+}
+main .imggroup .anim2 {
+  animation-name: imganim2;
+  animation-duration: 1.4s;
+}
+@keyframes imganim1 {
+  0% {
+    transform: translateX(-200px);
+    margin-top: -200px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes imganim2 {
+  0% {
+    transform: translateX(400px);
+    opacity: 0;
+    margin-top: -200px;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    margin: 0;
+  }
+}
+main .imggroup .anim1:hover {
+  transform: translateX(-90px);
+  margin-top: -20px;
+  transition: 1s;
+  scale: 1.1;
+  filter: brightness(1);
+}
+main .imggroup .anim2:hover {
+  transform: translateX(90px);
+  margin-top: -20px;
+  transition: 1s;
+  scale: 1.05;
+  filter: brightness(1);
+}
+main .imggroup .thenem:hover {
+  transform: translateX(-90px);
+  margin-top: -150px;
+  transition: 1s;
+  scale: 1.05;
+  filter: brightness(1);
+}
+main .imggroup .them:hover {
+  transform: translateX(-90px);
+  margin-top: -120px;
+  transition: 1.1s;
+  scale: 1.1;
+  filter: brightness(1);
+}
+
+.pages {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 30px;
+}
+.pages img {
+  width: 200px;
+  animation-name: imgfade;
+  animation-duration: 1s;
+}
+.pages img:hover {
+  scale: 1.1;
+  transition: 0.2s ease-out;
+}
+.pages .img18 {
+  animation-name: anima2;
+  animation-duration: 1s;
+}
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+    margin-left: 200px;
+  }
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .pages {
+    grid-template-columns: auto auto auto auto !important;
+    gap: 18px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .pages {
+    grid-template-columns: auto auto !important;
+    gap: 18px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  header nav {
+    font-size: 18px;
+  }
+  .pages {
+    grid-template-columns: auto !important;
+  }
+}
+
+/*# sourceMappingURL=Global.css.map */
+
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
