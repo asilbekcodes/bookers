@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: #21212E;
+}
+
+.hero h1 {
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+
+.btn {
+  width: 7.5rem;
+  height: 2.5rem;
+  background: transparent;
+  border: 3px solid #777779;
+  border-radius: 7px;
+  color: #777779;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #2e2e2e;
+}
+
+.bttn {
+  width: 5.5rem;
+  height: 2.5rem;
+  background: #9C0A35;
+  border: 3px solid #777779;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  font-size: 1.04rem;
+}
+
+.bttn:hover {
+  background-color: #820a2e;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 350px;
+  height: 113px;
+  background-color: #B9B9C9;
+  border-radius: 13px;
+  padding: 0.6rem 0rem;
+}
+.wrapper .input__span {
+  background-color: #4B4B64;
+  height: 45px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+.wrapper .input__span .wrapper__p {
+  color: white;
+  font-family: sans-serif;
+}
+.wrapper .input__label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.7rem;
+  font-family: sans-serif;
+}
+.wrapper .input__label .input__label-h4 {
+  color: #9C0A35;
+}
+
+.wrapper__one {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 350px;
+  height: 130px;
+  background-color: #B9B9C9;
+  border-radius: 13px;
+  padding: 0.6rem 0rem;
+}
+.wrapper__one .span__input {
+  padding: 0rem 1.8rem;
+  font-family: sans-serif;
+}
+.wrapper__one .label__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 1.8rem;
+  font-family: sans-serif;
+}
+.wrapper__one .label__input .label__input__p {
+  opacity: 70%;
+}
+.wrapper__one .rabochi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem 1.8rem;
+  font-family: sans-serif;
+}
+.wrapper__one .rabochi .rabochi__p {
+  opacity: 70%;
+}
+.wrapper__one .seansov {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.8rem;
+  font-family: sans-serif;
+}
+.wrapper__one .seansov .seansov__p {
+  opacity: 70%;
+}
+
+.input__span {
+  position: relative;
+}
+.input__span .calendar-image {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  /* Additional styling for the image */
+}
+.input__span .calendar-icon {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.input__span .calendar-icon:hover + .calendar-image, .input__span .calendar-icon:focus + .calendar-image {
+  display: block;
+}
+
+.footer__menu {
+  display: flex;
+  width: 360px;
+  margin: 0 auto;
+  padding: 0rem 0.5rem;
+  justify-content: space-between;
+  bottom: 1rem;
+  position: fixed;
+}
+
+.financ__img {
+  margin-left: -1rem;
+}
+
+.uslug__img {
+  margin-left: -1rem;
+}/*# sourceMappingURL=index2.css.map */

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #21212E;
+  font-family: sans-serif;
+}
+
+.header {
+  color: white;
+}
+
+.schedule {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: auto;
+}
+
+.nav {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 0.3rem;
+  overflow-x: scroll;
+}
+
+.active {
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: #9C0A35;
+}
+
+.white {
+  color: white;
+}
+
+.zapis {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.zapros {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.transparent {
+  color: #6F6F72;
+}
+
+.solid {
+  color: #6F6F72;
+}
+
+.bir {
+  color: white;
+  margin-left: 0.3rem;
+}
+
+.data__segodniy {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  color: white;
+  align-items: center;
+}
+
+.data__btn {
+  width: 150px;
+  height: 40px;
+  background-color: #9C0A35;
+  border-radius: 10px;
+}
+.data__btn .style {
+  color: white;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=raspisan.css.map */

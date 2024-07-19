@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../../../sass/firnince/index7.css")
+        title Document
+    body 
+        .container
+            header
+                h1 Финансы
+            nav
+                button.po По дням
+                button.active По периоду
+                button ТОП клиенты
+            .profit-period
+                h2 Прибыль за период
+                .date-input
+                    input(type='text', placeholder='С этого дня')
+                    span.icon
+                        img(src='../../../assets/images/finance/date.svg', alt='calendar icon')
+                .date-input
+                    input(type='text', placeholder='по сей день')
+                    span.icon
+                        img(src='../../../assets/images/finance/date.svg', alt='calendar icon')
+                button Рассчитать
+            .months-summary
+                h3 По месяцам
+                

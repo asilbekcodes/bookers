@@ -1,0 +1,79 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../../../sass/firnince/index3.css")
+        title Document
+    body 
+        .container
+            header
+                h1 Финансы
+            nav
+                button.po По дням
+                button.active По периоду
+                button ТОП клиенты
+            .profit-period
+                h2 Прибыль за период
+                .date-input
+                    input(type='text', placeholder='С этого дня')
+                    span.icon
+                        img(src='../../../assets/images/finance/date.svg', alt='calendar icon')
+                .date-input
+                    input(type='text', placeholder='по сей день')
+                    span.icon
+                        img(src='../../../assets/images/finance/date.svg', alt='calendar icon')
+                button Рассчитать
+            .months-summary
+                h3 По месяцам
+                .month-summary
+                    .month__summary-work 
+                        .month__summary-h4 
+                            h4 Март
+                            h4 3 500 000 сум
+                        .month__summary-date 
+                            p 01.03.2024 - 20.03.2024:
+                        .month__summary-doxod 
+                            p Доход:
+                            h5 4 500 000 сум 
+                        .month__summary-rasxod
+                            p Расход:
+                            h5 1 000 000 сум
+                        .month__summary-rabotchi
+                            p Рабочие часы:
+                            h5 72 
+                        .month__summary-seansov
+                            p Сеансов выполнено:
+                            h5 36                        
+                .month-summary
+                    .month__summary-work
+                        .month__summary-h4 
+                            h4 Февраль
+                            h4 3 500 000 сум
+                        .month__summary-date 
+                            p 01.03.2024 - 20.03.2024:
+                        .month__summary-doxod 
+                            p Доход:
+                            h5 4 500 000 сум 
+                        .month__summary-rasxod
+                            p Расход:
+                            h5 1 000 000 сум
+                        .month__summary-rabotchi
+                            p Рабочие часы:
+                            h5 72 
+                        .month__summary-seansov
+                            p Сеансов выполнено:
+                            h5 36
+                    
+            footer.footer 
+                .footer__menu 
+                    a(href="#")
+                        img(src="../../../assets/images/finance/glavnya.svg", alt="image") 
+                    a(href="#")
+                        img.uslug__img(src="../../../assets/images/finance/uslug.svg", alt="image") 
+                    a(href="#")
+                        img.financ__img(src="../../../assets/images/finance/finance.svg", alt="image") 
+                    a(href="#")
+                        img(src="../../../assets/images/finance/chat.svg", alt="image") 
+                    a(href="#")
+                        img(src="../../../assets/images/finance/profil.svg", alt="image") 

@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Расписание
+    link(rel="stylesheet" href="../../../sass/raspisan/raspisan.css")
+  body
+    .schedule
+        .header
+            h1 Расписание
+        .nav
+            button.active 
+              a(href="#").white    Забронировано 
+                span.qoldiq 3
+            button.zapis 
+              a(href="#").transparent  Запросы
+                span.bir 1 
+            button.zapros 
+              a(href="#").solid   Запрос окошка
+    .data 
+        .data__segodniy 
+          h2 Пт, Сегодня
+          button.data__btn 
+            a(href="#").style  Сделать выходным 
