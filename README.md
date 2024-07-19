@@ -66,6 +66,7 @@ Loyihani lokal muhitda ishga tushirish uchun quyidagi amallarni bajaring:
 | 16   | Y. Dilshod 2  | Finans --> Kartochka Zapisi  |
 | 17   | JASUR      | Kartochka Zapisi --> Oxirigacha  |
 
-| Owner      | Server Page       |
+| Owner, Key's      | Server Page       |
 | ---------  | ---------- |
 | JASUR      | https://booker-two.netlify.app/booker-jasur/index.html |
+| Asliddin   | https://booker-two.netlify.app/booker-asliddin/index.html |
